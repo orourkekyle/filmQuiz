@@ -1,0 +1,43 @@
+/* #main-window {
+    background-color: grey;
+    margin: 20px 20px 20px 20px;
+}
+
+ */
+/* .jumbotron {
+    position: center;
+    background-color: grey;
+} */
+
+.jumbotron {
+    height:100%;
+    width:100%;
+  }
+  .container {
+    width: 75%;
+    height: 100%;
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 5px black;
+
+  }
+  .jumbotron .container {
+    max-width: 100%;
+  }
+  .vertical-center {
+      min-height: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+  }
+  .btn-warning {
+      visibility: hidden;
+  }
+  .ask-question {
+      visibility: hidden;
+  }
+  .btn-warning {
+      margin: 10px;
+
+  }
